@@ -37,5 +37,6 @@ Extension Pack for Java
 
 1. enter `mvn test` in your terminal and the browser automation should start running.
 2. Once the tests have completed you can click on the Cucumber Report at link in your terminal to view the passed or failed test cases.
+3. All the relevant files are located in : src/test/java
 
 
