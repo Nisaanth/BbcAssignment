@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-04T14:30:52 BST" name="Surefire suite" finished-at="2022-05-04T14:31:03 BST" duration-ms="11799">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@13acb0d1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-05-04T14:30:52 BST" name="Surefire test" finished-at="2022-05-04T14:31:03 BST" duration-ms="11799">
+      <class name="CucumberOptions.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CucumberOptions.TestRunner@13acb0d1]" started-at="2022-05-04T14:30:52 BST" name="setUpClass" finished-at="2022-05-04T14:30:52 BST" duration-ms="479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@770d4269]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@13acb0d1]" started-at="2022-05-04T14:30:52 BST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-04T14:31:01 BST" duration-ms="8934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate title of BBC iPlayer Home"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feauture to validate the Home Page elements"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@13acb0d1]" started-at="2022-05-04T14:30:52 BST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-04T14:31:03 BST" duration-ms="10840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["user flow journey to validate whether there are 4 items in a carousel every time the user clicks  on the forward Button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Feauture to validate the Home Page elements"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberOptions.TestRunner@13acb0d1]" started-at="2022-05-04T14:31:03 BST" name="tearDownClass" finished-at="2022-05-04T14:31:03 BST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CucumberOptions.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
